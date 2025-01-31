@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add JetBrains Mono */
+@font-face {
+	font-family: Mono;
+	src: url(/sass/Font.ttf);
+	font-size: 100%;
+}
+
+@layer base {
+	/* Link (a) CSS */
+	a {
+		color: rgb(55 55 55);
+		text-decoration: underline;
+		text-decoration-style: wavy;
+	}
+
+	a:hover {
+		color: black;
+	}
+}
